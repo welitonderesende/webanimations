@@ -26,3 +26,14 @@ const player = document.getElementById('toAnimate').animate([
     direction: 'alternate',
     fill: 'forwards'
 });
+{Object} AnimationPlayer
+player.pause();
+player.play();
+player.reverse();
+player.cancel();
+player.finish();
+player.onfinish = function() {};
+player.oncancel = function() {};
+player.playState;
+player.currentTime;
+player.startTime;

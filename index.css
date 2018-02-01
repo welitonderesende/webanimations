@@ -5,3 +5,47 @@
     margin: 50px;
     background-color: #ee4477;
 }
+body {
+    position: relative;
+    display: flex;
+}
+#a {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    left: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#a > div {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    display: flex;
+    /* left: 400px; */
+    /* top: 400px; */
+    background: #ee4477;
+    border-radius:100%;
+    /* position: absolute; */
+}
+#b {
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#b > div {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    display: flex;
+    /* left: 400px; */
+    /* top: 400px; */
+    background: #3042eb;
+    border-radius:100%;
+    /* position: absolute; */
+}
